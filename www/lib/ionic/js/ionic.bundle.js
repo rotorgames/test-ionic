@@ -48622,7 +48622,7 @@ function($collectionRepeatManager, $collectionDataSource, $parse) {
       // Find every sibling before and after the repeated items, and pass them
       // to the dataSource
       var scrollViewContent = scrollCtrl.scrollView.__content;
-      function rerender(value) {
+      function rerender(value) {alert('render');
         var beforeSiblings = [];
         var afterSiblings = [];
         var before = true;
